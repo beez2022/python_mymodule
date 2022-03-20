@@ -8,7 +8,7 @@ Created on Sun Mar 20 14:30:12 2022
 from urllib.request import urlopen
 import json
 
-def get_weather_pls(sID):
+def get_weather_singapore(sID):
      sock = urlopen("https://api.data.gov.sg/v1//environment/air-temperature")
      result = sock.read()
      sock.close
